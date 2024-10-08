@@ -1,0 +1,79 @@
+body {
+    background-color: #3F3F3F;
+    padding: 5vh 10vw 5vh 10vw;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stoplight, .walkerlight {
+    background-color: black;
+    padding: 25px 15px;
+    border: 2px solid white;
+    border-radius : 25%;
+}
+
+.light {
+    width: 50px;
+    height: 50px;
+    border-radius : 50%;
+    margin-bottom: 10px;
+}
+
+.walkerlight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.walk {
+    width: 50px;
+    height: 50px;
+    border-radius : 50%;
+    margin-bottom: 10px;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: green;
+}
+
+.off {
+    background-color: gray;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pole {
+    width: 35px;
+    height: 250px;
+    background: linear-gradient(
+            to bottom,
+            red 0%,
+            red 25%,
+            white 25%,
+            white 50%,
+            red 50%,
+            red 75%,
+            white 75%,
+            white 100%
+    );
+}
+
+.walklight-button {
+    margin-top: -145px;
+    padding: 5px 10px;
+}
